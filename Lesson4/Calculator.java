@@ -8,9 +8,13 @@ public class Calculator{
         }
     }
 
-    public setResult{
+    public int setResult(){
         return this.result;
     }
+	
+	public void resetResult(){
+		this.result = 0;
+	}
 
 
 }

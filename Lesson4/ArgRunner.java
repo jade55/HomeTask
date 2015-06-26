@@ -1,12 +1,13 @@
 public class ArgRunner{
 
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         System.out.println("Calculator");
-        if (args.length = 2){
-            int first = Integer.volueOf(args[0]);
-            int second = Integer.volueOf(args[1]);
+        if (arg.length == 2){
+            int first = Integer.valueOf(arg[0]);
+            int second = Integer.valueOf(arg[1]);
             Calculator calc = new Calculator();
-            calc.getData(first, second);
+            calc.add(first, second);
+			System.out.println(calc.setResult());
             }else {
             System.out.println("Need too numbers");
         }
