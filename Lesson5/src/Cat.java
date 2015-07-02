@@ -4,20 +4,20 @@ public class Cat extends Animals{
 
     String name;
 
-    Cat(String name){
+    Cat(final String name){
         this.name = name;
-        super.getName(this.name);
-        super.getType("Cate");
+        super.setName(this.name);
+        super.setType("Cat");
     }
 
     Cat(){
 
     }
 
-    public void getName(String name){
+    public void setName(final String name){
         this.name = name;
-        super.getName(this.name);
-        super.getType("Cate");
+        super.setName(this.name);
+        super.setType("Cat");
     }
 
 

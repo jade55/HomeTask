@@ -8,16 +8,24 @@ import java.lang.String;
 public class Animals{
   
 
-    public String name;
-    public String type;
+    private String name;
+    private String type;
 
 
-    public void getName(String name){
+    public void setName(final String name){
         this.name = name;
     }
 
-    public void getType(String type){
+    public void setType(final String type){
         this.type = type;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getType(){
+        return type;
     }
 
 
