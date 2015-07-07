@@ -3,6 +3,13 @@ package ru.lessons;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Created by Roman on 02.07.2015.
+ * Класс входа.
+ * Добавляем в массив клиентов с их животными
+ * @author abutkin
+ * @version 1.0
+ */
 public class Clinic{
     ArrayList<Client> clients = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
