@@ -1,6 +1,9 @@
+package ru.lessons;
+
 import java.lang.String;
 
 /**
+ * Created by Roman on 02.07.2015.
  * Класс родитель для животных
  * @author abutkin
  * @version 1.0
