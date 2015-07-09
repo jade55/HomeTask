@@ -60,8 +60,8 @@ public class Clinic{
     }
 
     public  void outArray(){
-        for (int i = 0 ; i < clients.size(); i++) {
-            System.out.println(clients.get(i).id + " " + clients.get(i).pat.getName() + " " + clients.get(i).pat.getType());
+        for (Client client : clients) {
+            System.out.println(client.id + " " + client.pat.getName() + " " + client.pat.getType());
         }
     }
 
